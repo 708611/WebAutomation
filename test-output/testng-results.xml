@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T20:55:16 IST" name="Suite" finished-at="2023-08-16T20:56:07 IST" duration-ms="51041">
+    <groups>
+    </groups>
+    <test started-at="2023-08-16T20:55:16 IST" name="Test" finished-at="2023-08-16T20:56:07 IST" duration-ms="51041">
+      <class name="main.app.MainApp">
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:16 IST" name="LaunchApllication" finished-at="2023-08-16T20:55:26 IST" duration-ms="9053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApllication -->
+        <test-method signature="VerifyLogFunctionality()[pri:1, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:26 IST" name="VerifyLogFunctionality" finished-at="2023-08-16T20:55:31 IST" duration-ms="4998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:31 IST" name="browserClose" finished-at="2023-08-16T20:55:31 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:31 IST" name="LaunchApllication" finished-at="2023-08-16T20:55:37 IST" duration-ms="6684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApllication -->
+        <test-method signature="destination()[pri:2, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:37 IST" name="destination" finished-at="2023-08-16T20:55:43 IST" duration-ms="5462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destination -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:43 IST" name="browserClose" finished-at="2023-08-16T20:55:43 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:43 IST" name="LaunchApllication" finished-at="2023-08-16T20:55:50 IST" duration-ms="6573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApllication -->
+        <test-method signature="region()[pri:3, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:50 IST" name="region" finished-at="2023-08-16T20:55:58 IST" duration-ms="8896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- region -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:58 IST" name="browserClose" finished-at="2023-08-16T20:55:59 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:55:59 IST" name="LaunchApllication" finished-at="2023-08-16T20:56:06 IST" duration-ms="7162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApllication -->
+        <test-method signature="readWriteExcel()[pri:4, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:56:06 IST" name="readWriteExcel" finished-at="2023-08-16T20:56:07 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readWriteExcel -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-16T20:56:07 IST" name="browserClose" finished-at="2023-08-16T20:56:07 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- main.app.MainApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
