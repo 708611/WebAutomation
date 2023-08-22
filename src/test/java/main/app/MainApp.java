@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 
 import businessComponents.*;
-import extentReports.GenerateExtentReport;
 import utils.ExcelUtils;
 import utils.WriteExcel;
 
