@@ -1,195 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T19:58:17 IST" name="Suite" finished-at="2023-08-24T19:59:20 IST" duration-ms="62200">
+  <suite started-at="2023-08-24T20:14:13 IST" name="Suite" finished-at="2023-08-24T20:15:11 IST" duration-ms="57429">
     <groups>
     </groups>
-    <test started-at="2023-08-24T19:58:17 IST" name="Test" finished-at="2023-08-24T19:59:20 IST" duration-ms="62200">
+    <test started-at="2023-08-24T20:14:13 IST" name="Test" finished-at="2023-08-24T20:15:11 IST" duration-ms="57429">
       <class name="main.app.MainApp">
-        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:18 IST" name="LaunchApllication" finished-at="2023-08-24T19:58:28 IST" duration-ms="10462" status="PASS">
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:14 IST" name="LaunchApllication" finished-at="2023-08-24T20:14:27 IST" duration-ms="13572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApllication -->
-        <test-method signature="VerifyLogFunctionality()[pri:1, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:28 IST" name="VerifyLogFunctionality" finished-at="2023-08-24T19:58:33 IST" duration-ms="4929" status="PASS">
+        <test-method signature="VerifyLogFunctionality()[pri:1, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:27 IST" name="VerifyLogFunctionality" finished-at="2023-08-24T20:14:31 IST" duration-ms="3816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogFunctionality -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:33 IST" name="browserClose" finished-at="2023-08-24T19:58:33 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:31 IST" name="browserClose" finished-at="2023-08-24T20:14:32 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:33 IST" name="LaunchApllication" finished-at="2023-08-24T19:58:41 IST" duration-ms="7254" status="PASS">
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:32 IST" name="LaunchApllication" finished-at="2023-08-24T20:14:39 IST" duration-ms="7655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApllication -->
-        <test-method signature="destination()[pri:2, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:41 IST" name="destination" finished-at="2023-08-24T19:58:51 IST" duration-ms="10097" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=116.0.5845.97)
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3897d019b3b143f699c75600a338b422, clickElement {id=CDAA8048BAB620959C9ADD4B2A00757D_element_25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\indra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56377/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3897d019b3b143f699c75600a338b422)] -> xpath: //div[@id='headerLinkContainer']//a[contains(text(),'Locations')]]
-Session ID: 3897d019b3b143f699c75600a338b422]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=116.0.5845.97)
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3897d019b3b143f699c75600a338b422, clickElement {id=CDAA8048BAB620959C9ADD4B2A00757D_element_25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\indra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56377/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3897d019b3b143f699c75600a338b422)] -> xpath: //div[@id='headerLinkContainer']//a[contains(text(),'Locations')]]
-Session ID: 3897d019b3b143f699c75600a338b422
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at businessComponents.BusinessLogic.clickLocation(BusinessLogic.java:31)
-at main.app.MainApp.destination(MainApp.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="destination()[pri:2, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:39 IST" name="destination" finished-at="2023-08-24T20:14:45 IST" duration-ms="5457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destination -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:52 IST" name="browserClose" finished-at="2023-08-24T19:58:52 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:45 IST" name="browserClose" finished-at="2023-08-24T20:14:45 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:58:52 IST" name="LaunchApllication" finished-at="2023-08-24T19:59:00 IST" duration-ms="8300" status="PASS">
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:45 IST" name="LaunchApllication" finished-at="2023-08-24T20:14:53 IST" duration-ms="7802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApllication -->
-        <test-method signature="region()[pri:3, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:59:00 IST" name="region" finished-at="2023-08-24T19:59:10 IST" duration-ms="10192" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=116.0.5845.97)
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e455b006dfe2ac6ebe9fd93eb79b1572, clickElement {id=0AB63D1AF9AB064BE8B864DC442AAE9F_element_25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\indra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56545/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e455b006dfe2ac6ebe9fd93eb79b1572)] -> xpath: //div[@id='headerLinkContainer']//a[contains(text(),'Locations')]]
-Session ID: e455b006dfe2ac6ebe9fd93eb79b1572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=116.0.5845.97)
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e455b006dfe2ac6ebe9fd93eb79b1572, clickElement {id=0AB63D1AF9AB064BE8B864DC442AAE9F_element_25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\indra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56545/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e455b006dfe2ac6ebe9fd93eb79b1572)] -> xpath: //div[@id='headerLinkContainer']//a[contains(text(),'Locations')]]
-Session ID: e455b006dfe2ac6ebe9fd93eb79b1572
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at businessComponents.BusinessLogic.clickLocation(BusinessLogic.java:31)
-at main.app.MainApp.region(MainApp.java:59)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="region()[pri:3, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:14:53 IST" name="region" finished-at="2023-08-24T20:15:02 IST" duration-ms="9862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- region -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:59:11 IST" name="browserClose" finished-at="2023-08-24T19:59:12 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:15:02 IST" name="browserClose" finished-at="2023-08-24T20:15:03 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:59:12 IST" name="LaunchApllication" finished-at="2023-08-24T19:59:18 IST" duration-ms="6817" status="PASS">
+        <test-method is-config="true" signature="LaunchApllication()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:15:03 IST" name="LaunchApllication" finished-at="2023-08-24T20:15:10 IST" duration-ms="7054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApllication -->
-        <test-method signature="readWriteExcel()[pri:4, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:59:18 IST" name="readWriteExcel" finished-at="2023-08-24T19:59:19 IST" duration-ms="1083" status="PASS">
+        <test-method signature="readWriteExcel()[pri:4, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:15:10 IST" name="readWriteExcel" finished-at="2023-08-24T20:15:11 IST" duration-ms="953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readWriteExcel -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T19:59:19 IST" name="browserClose" finished-at="2023-08-24T19:59:20 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:main.app.MainApp@302fec27]" started-at="2023-08-24T20:15:11 IST" name="browserClose" finished-at="2023-08-24T20:15:11 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
